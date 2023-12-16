@@ -79,3 +79,12 @@ export const getUsuario=async(req, res)=>{
   }
   
 }
+
+export const getAllUsuario=async(req,res)=>{
+  try {
+    const [rows] = await pool.query('select * from usuario')
+    res.send(rows)
+  } catch (error) {
+    res.status(500),json('no se encuentra')
+  }
+}
