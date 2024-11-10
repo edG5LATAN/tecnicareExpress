@@ -1,5 +1,5 @@
 
-## PROYECTO DE COMEDOR EN REACT V1.0.1
+## PROYECTO DE MICRO EMPRESA BACKEND EN EXPRESS CON  NODEJS
 
 -Primer proyecto usando React y NodeJs para crear una base de datos para una micro empresa donde se puede crear, actualizar, eliminar y listar cada uno de sus productos y sus clientes.
 
